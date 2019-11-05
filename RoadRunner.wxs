@@ -105,7 +105,7 @@
 	<Property Id="ARPPRODUCTICON" Value="icon.ico" />
 	
 	<CustomAction Id="Cleanup_RoadRunner_dir" Directory="AppDataFolder"
-		ExeCommand="cmd /C &quot;rmdir /s /q %appdata%\mIRC&quot;"
+		ExeCommand="cmd /C &quot;rmdir /s /q %appdata%\RoadRunner&quot;"
 		Execute="deferred" Return="ignore" HideTarget="no" Impersonate="no" />
 	
 	<InstallExecuteSequence>
